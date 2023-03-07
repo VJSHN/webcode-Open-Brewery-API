@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    height: 100%;
+    background-size: 100px;
+    }
+nav{
+    display: grid;
+    grid-template-columns:1fr 3fr 1fr;
+    padding: 10px;
+    height: 80px ;
+    background-color: #F7C04A;
+    text-align: center;
+    align-items: center;
+}
+.company-name{
+    color: #3F497F;
+    font-weight: bolder;
+}
+
+.logo{
+position: relative;
+left: 15px;
+width: 60px;
+justify-content: space-around;
+}
+.whole-search{
+
+position: relative;
+right: 60px;
+
+
+}
+.search-bar{   
+    width: 400px;     
+border-radius: 20px;
+border: none;
+padding: 10px;
+font-weight: bold;
+
+}
+.search-icon{
+position: relative;
+align-items: center;
+color: #3F497F;
+box-sizing: border-box;
+margin: 5px;
+width: 15px;
+
+}
+.icon-box{
+display: flex;
+width: 25px;
+height: 25px;
+border-radius: 50%;
+background-color: #F8F5E4  ;
+}
+.welcome{
+    text-align: center;
+    padding: 20px;
+    font-size: 80px;
+    font-family: 'Indie Flower', cursive;
+}
+.Brewery-container{
+display:grid;
+grid-template-columns: repeat(auto-fit,350px);
+justify-content: center;
+margin: 10px;
+
+}   
+.card{
+display: grid;
+align-items: center;
+margin: 20px;
+box-sizing: border-box;
+width: 300px;
+min-height: 300px;
+margin: 10px;
+padding: 5px;
+background-color: #F7C04A;
+}
+.btn.btn-dark{
+width: 100%;
+background-color: black;
+border-radius: 5px;
+}
+
+.card-title{
+
+font-weight:bold;
+text-align: center;
+}
+.card-text{
+padding: 0;
+margin: 0;
+font-size: 13px;
+font-weight: bolder;
+}
+
+.end{
+width: 100%;
+background-color:#F7C04A;
+}
+.end{
+display: grid;
+grid-template-columns: 1fr 3fr 1fr;
+text-align: center;
+align-items: center;
+font-weight: bolder;
+height: 30%;
+margin-top: 50px;
+margin-bottom: 10px;
+}
+
+.rights{
+position: relative;
+top: 5px;
+font-weight: bold;
+}
+
+.creator{
+position: relative;
+top: 5px;
+font-weight: bold;
+}
+@media screen and (max-width:730px) {
+ 
+nav{
+    height: 150px ;
+    background-color: #F7C04A;
+    text-align: right;
+}
+.company-name{
+    color: #F7C04A;
+}
+
+.logo{
+left: 50px;
+width: 120px;
+}
+.whole-search{
+    width: 700px-100px;
+    padding: 20px;
+    margin-right: 5px;
+    top:0px;
+    justify-content: right;
+
+}
+}
